@@ -31,7 +31,7 @@ hr{
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
-}
+    }
 .link-primary{
     background-color: var(--primary-color);
     padding : 0.5rem 1.5rem ;
@@ -72,6 +72,9 @@ hr{
 
 .navigation .link{
     color: white;
+}
+.navigation .link-active{
+    font-weight: bold;
 }
 .navigation .nav-class{
     font-weight: bold;
@@ -122,6 +125,10 @@ this has been done to put the paragraph text part in center in site both section
 }
 .footer .link{
     color: white;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: larger;
 }
 
 /**Note- This is done done because all the links were slightly right side of the page. So this is done to override the already defined browser command in css**/
