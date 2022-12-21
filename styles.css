@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik+Gemstones&display=swap');
 
-:root{
+:root {
     --primary-color: #155e75;
-    --dark-brown:#991b1b;
-    --off-white:#e5e7eb;
+    --dark-brown: #991b1b;
+    --off-white: #e5e7eb;
 }
-body{
+
+body {
     font-family: 'Open Sans', sans-serif;
-    margin:0px;
+    margin: 0px;
 }
 
 /** Containers**/
@@ -15,88 +16,100 @@ body{
 .container {
     padding-left: 1rem;
     padding-right: 1rem;
-    
+
 }
-.container-center{
+
+.container-center {
     max-width: 600px;
     margin: auto
 }
 
-hr{
+hr {
     margin: 2rem 0.5rem
 }
 
 /**Links**/
 
-.link{
+.link {
     text-decoration: none;
     padding: 0.5rem 1rem;
-    }
-.link-primary{
-    background-color: var(--primary-color);
-    padding : 0.5rem 1.5rem ;
-    color: white;
-    border-radius: 0.5rem;
 }
 
-.link-secondary{
+.link-primary {
+    background-color: var(--primary-color);
+    padding: 0.5rem 1.5rem;
+    color: white;
+    border-radius: 0.5rem;
+    margin: 1rem ;
+}
+
+.link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }
-.list-non-bullet{
+
+.list-non-bullet {
     list-style: none;
 }
-.list-item-inline{
+
+.list-item-inline {
     display: inline;
     padding: 0rem 0.5rem
 }
 
 /** navigation**/
 
-.navigation{
+.navigation {
     background-color: var(--primary-color);
-    color:white;
-    padding:1rem;
+    color: white;
+    padding: 1rem;
     border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem;
 }
-.navigation .nav-brand{
+
+.navigation .nav-brand {
     font-weight: bold;
-    font-size:x-large;
-    padding:1rem
-}   
-.navigation .nav-pills{
+    font-size: x-large;
+    padding: 1rem
+}
+
+.navigation .nav-pills {
     text-align: right;
 }
 
-.navigation .link{
+.navigation .link {
     color: white;
 }
-.navigation .link-active{
+
+.navigation .link-active {
     font-weight: bold;
-}
-.navigation .nav-class{
-    font-weight: bold;
-}
-.hero{
-    padding:2rem
-}
-.hero .hero-img{
-    width: 375px;
-    display:block;
-    margin: auto;
-}
-.hero .hero-heading{
-     text-align: center;
-    padding: 1rem;
-    color:var(--dark-brown);
-    
 }
 
-.hero .heading-inverted{
+.navigation .nav-class {
+    font-weight: bold;
+}
+
+.hero {
+    padding: 2rem
+}
+
+.hero .hero-img {
+    width: 375px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    text-align: center;
+    padding: 1rem;
+    color: var(--dark-brown);
+
+}
+
+.hero .heading-inverted {
     color: var(--primary-color);
-    
+
 }
 
 /** sections **/
@@ -105,7 +118,8 @@ hr{
     padding: 2rem;
     text-align: center;
 }
-.off-white{
+
+.off-white {
     background-color: var(--off-white);
 }
 
@@ -115,23 +129,34 @@ this has been done to put the paragraph text part in center in site both section
 
 /** footer**/
 
-.footer{
+.footer {
     background-color: var(--primary-color);
     padding: 2rem;
-    text-align:center;
+    text-align: center;
     color: white;
     border-top-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
 }
-.footer .link{
+
+.footer .link {
     color: white;
 }
-.footer .footer-header{
+
+.footer .footer-header {
     font-weight: bold;
     font-size: larger;
 }
 
 /**Note- This is done done because all the links were slightly right side of the page. So this is done to override the already defined browser command in css**/
-.footer ul{
+.footer ul {
     padding-inline-start: 0px;
+}
+
+.dummy-date{
+    text-align:start;
+}
+
+.blogwritername{
+    text-align: left;
+    font-weight: bolder;
 }
