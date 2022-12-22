@@ -1,6 +1,6 @@
 # Mark-Three-Four-Five-Portfolio-Site
 
-Tech Stack:HTML and CSS.
+Tech Stack: HTML and CSS.
 
 About Project:
 This project was made as part of Level Zero of Neogcamp.
